@@ -1,0 +1,116 @@
+[
+  {
+    "ContainingType": "PercobaanApi1.Controllers.PersonController",
+    "Method": "Get",
+    "RelativePath": "{id_person}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_person",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PercobaanApi1.Controllers.PersonController",
+    "Method": "UpdatePerson",
+    "RelativePath": "{id_person}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_person",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatePersonData",
+        "Type": "PercobaanApi1.Models.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PercobaanApi1.Controllers.PersonController",
+    "Method": "DeletePerson",
+    "RelativePath": "{id_person}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_person",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "deletePersonData",
+        "Type": "PercobaanApi1.Models.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PercobaanApi1.Controllers.PersonController",
+    "Method": "ListPerson",
+    "RelativePath": "api/person",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "PercobaanApi1.Models.Person",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PercobaanApi1.Controllers.PersonController",
+    "Method": "CreatePerson",
+    "RelativePath": "api/person",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPersonData",
+        "Type": "PercobaanApi1.Models.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PercobaanApi1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PercobaanApi1.WeatherForecast, PercobaanApi1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
